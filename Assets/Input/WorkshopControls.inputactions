@@ -1,0 +1,78 @@
+{
+    "version": 1,
+    "name": "WorkshopControls",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "5ab96e41-d87d-4a21-930d-22f3c17a4024",
+            "actions": [
+                {
+                    "name": "MoveLeft",
+                    "type": "Button",
+                    "id": "d806d4b6-1144-4830-9de1-425bda35681b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "MoveRight",
+                    "type": "Button",
+                    "id": "31c89139-0bf1-4292-82f1-27b552b2d4b4",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "12fbe983-41db-41b2-9db5-87f0d9ecb24d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f744eaa4-6635-4d77-b282-87f52f0810f0",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7b555eb9-bc90-4534-be6d-b616cd28e5f3",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f77f9936-bcef-4b4c-a535-7158476e242b",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

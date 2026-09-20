@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags: []
   layers:
   - Default
@@ -34,10 +34,25 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Trophy3D
   - 
   - 
   m_SortingLayers:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Backdrop
+    uniqueID: 6001
+    locked: 0
+  - name: Characters
+    uniqueID: 6002
+    locked: 0
+  - name: Foreground
+    uniqueID: 6003
+    locked: 0
+  - name: Effects
+    uniqueID: 6004
+    locked: 0
+  m_RenderingLayers:
+  - Default
+  m_MigratedRenderPipelines: []

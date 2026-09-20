@@ -1,0 +1,13 @@
+PASS single scene
+PASS ground contact
+PASS D moves right
+PASS A moves left
+PASS simultaneous input neutral
+PASS old binding inactive
+PASS new binding moves
+PASS binding label updated
+PASS Interact fires once on hold
+PASS Interact does not repeat
+PASS disabled input stops movement
+PASS right wall blocks
+PASS camera clamped

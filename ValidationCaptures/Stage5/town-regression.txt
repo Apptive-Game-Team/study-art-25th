@@ -1,0 +1,5 @@
+PASS Town independent without coordinator
+PASS prefab discovers input and moves
+PASS old binding inactive
+PASS new binding moves
+PASS binding label updated

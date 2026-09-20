@@ -1,0 +1,31 @@
+PASS judge 0/0
+PASS judge 0/1
+PASS judge 0/2
+PASS judge 1/0
+PASS judge 1/1
+PASS judge 1/2
+PASS judge 2/0
+PASS judge 2/1
+PASS judge 2/2
+PASS begin
+PASS old Interact binding ignored in battle
+PASS enemy candidates stay public and fixed
+PASS first press only stops left
+PASS stopped left stays fixed
+PASS second press starts selection, not resolution
+PASS left selection
+PASS simultaneous selection preserves highlight
+PASS right selection
+PASS timeout resolves once with identical candidates and no draw damage
+PASS draw starts next round and remains locked
+PASS winner attacks exactly once
+PASS held input cannot stop next round
+PASS loser takes enemy attack power once
+PASS enemy choice independent of player hand
+PASS death waits for presentation
+PASS victory ends once after hiding visual and unlocks
+PASS missing active input rejects battle without locking
+PASS new battle after victory
+PASS defeat waits then stays locked for return flow
+PASS defeat ignores old gameplay input
+PASS disable cleans up battle and movement

@@ -1,0 +1,26 @@
+PASS Presenter flips Visual only and preserves size
+PASS stopping preserves facing
+PASS Presenter faces right
+PASS starts at maximum
+PASS negative damage ignored
+PASS zero damage ignored
+PASS attack applies once
+PASS duplicate and old sequence rejected
+PASS self and null rejected
+PASS Attack state
+PASS Hit state
+PASS returns to Idle
+PASS damage clamps without integer overflow
+PASS death event once
+PASS dead target rejects attack
+PASS repeated lethal damage ignored
+PASS visual remains until death animation
+PASS death completed once and only Visual hidden
+PASS missing Animator fallback
+PASS disabled presenter completes once
+PASS stopped Animator fallback
+PASS long replacement not cut by fallback timeout
+PASS long replacement completes
+PASS restore clamps to max
+PASS restore clamps to zero
+PASS dead attacker cannot attack

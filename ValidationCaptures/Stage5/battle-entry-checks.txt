@@ -1,0 +1,26 @@
+PASS three enemies
+PASS not in battle before contact
+PASS PlayerMovement forwards right input
+PASS simultaneous movement neutral
+PASS PlayerMovement forwards left and flips Visual
+PASS patrol reverses both directions
+PASS patrol stays in spawn-relative range
+PASS Presenter faces enemy along patrol without flipping root
+PASS enemy movement animation
+PASS physical trigger enters battle once
+PASS duplicate opponent rejected
+PASS second opponent rejected
+PASS all movement locked
+PASS player XY frozen under input and force
+PASS all enemies XY frozen
+PASS Idle during battle
+PASS trigger stay does not reenter
+PASS Attack remains usable while locked
+FAIL action returns to Idle without unlocking
+PASS late spawned enemy locked before movement
+PASS disabled coordinator releases constraints
+PASS missing active coordinator does not enter
+PASS enemy patrol resumes
+PASS dead enemy rejected
+PASS null participant rejected
+PASS dead player rejected

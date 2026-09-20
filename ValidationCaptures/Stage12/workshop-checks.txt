@@ -1,0 +1,44 @@
+PASS loaded Town
+PASS fresh player maximum health
+PASS fresh trophy empty
+PASS respawn rounding 4/15/25/100
+PASS old movement binding ignored
+PASS new movement binding works
+PASS new Interact binding heals and appears in label
+PASS alternative particle prefab plays
+PASS missing particle keeps damage without spawning
+PASS forced display does not award trophy
+PASS healing via Interact
+PASS loaded Battle
+PASS three initial enemies and two fixed portals
+PASS four tilemap layers
+PASS post processing configured
+PASS single combined slot panel
+PASS battle begins
+PASS hit particle spawned
+PASS victory awards trophy and ends battle
+PASS dead colliders disabled
+PASS no victory portal duplication
+PASS particles cleaned
+PASS loaded Town
+PASS trophy survives scene change
+PASS Interact advances pose
+PASS alternate Humanoid model connected
+PASS loaded Battle
+PASS dead enemy stays absent while others survive
+PASS enemy damaged health restored
+PASS remaining enemy not duplicated
+PASS alternate clips preserve damage
+PASS defeat button shown and focused
+PASS death hides player visual
+PASS battle portal blocked during defeat
+PASS old Interact binding cannot return after defeat
+PASS loaded Town
+PASS Interact returns and revives at ten percent
+PASS defeat stores opponent health
+PASS recovery after defeat
+PASS loaded Battle
+PASS loaded Town
+PASS loaded Battle
+PASS all dead respawn as new wave
+PASS trophy remains single flag
