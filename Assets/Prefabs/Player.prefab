@@ -145,7 +145,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -8364913047766280116, guid: 4d701fb8bab94204e92af20e3e7b6a8a, type: 3}
+  m_Sprite: {fileID: 1778372764333937731, guid: 672325b2636e1f841a563aecca91a2cb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -166,7 +166,7 @@ Animator:
   m_GameObject: {fileID: 3615181511834524134}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 22100000, guid: b9547fdad2c7b8640a7381d8e9e16bef, type: 2}
+  m_Controller: {fileID: 22100000, guid: aa3aa0f8f0b0e4b45986a5847ed095ad, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -303,7 +303,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5, y: 1.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4593305520101723113}
   - {fileID: 2657042619989190762}
@@ -386,8 +386,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07b824f7d8d50984fb66cf96727b5e18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArtUnityWorkshop.CharacterStats
-  maxHealth: 100
-  attackPower: 10
+  maxHealth: 5
+  attackPower: 20
   moveSpeed: 4
 --- !u!114 &1357146623733533688
 MonoBehaviour:
