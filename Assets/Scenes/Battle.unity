@@ -1365,6 +1365,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8439297822327739800, guid: 1c749638ab2c9da4b9b2a33a31acb2ee, type: 3}
+      propertyPath: hitParticlePrefab
+      value: 
+      objectReference: {fileID: 8043164720690145077, guid: 70849d41e6f79724a9c6408beb34ce83, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6074,9 +6078,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4160233241764063765, guid: c14ed55f2a8e26b4da4d902f6e24aa12, type: 3}
+      propertyPath: m_Transition
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8086626883639360045, guid: c14ed55f2a8e26b4da4d902f6e24aa12, type: 3}
       propertyPath: m_Name
       value: WorkshopCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8086626883639360045, guid: c14ed55f2a8e26b4da4d902f6e24aa12, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
