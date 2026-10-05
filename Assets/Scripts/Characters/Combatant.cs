@@ -10,6 +10,8 @@ namespace ArtUnityWorkshop
         private CharacterAnimationPresenter animationPresenter;
         [SerializeField, InspectorName("피격 파티클"), Tooltip("피해가 발생하면 생성합니다. Loop를 꺼도 켜도 최대 10초 후 정리합니다.")]
         private ParticleSystem hitParticlePrefab;
+        [SerializeField, InspectorName("공격 바나나 파티클")]
+        private ParticleSystem attackParticlePrefab;
         [SerializeField, InspectorName("피격 위치"), Tooltip("비어 있으면 캐릭터 위치에 표시합니다.")]
         private Transform hitEffectAnchor;
         private CharacterStats stats;
@@ -31,6 +33,13 @@ namespace ArtUnityWorkshop
                 !target.isActiveAndEnabled || !target.stats.IsAlive || sequence < 0 || sequence <= lastAttackSequence) return false;
             lastAttackSequence = sequence;
             if (animationPresenter != null) animationPresenter.PlayAction("Attack");
+            if (attackParticlePrefab != null)
+            {
+                Vector3 direction = (target.transform.position - transform.position).normalized;
+                var attack = Instantiate(attackParticlePrefab, transform.position + direction * .6f, Quaternion.identity);
+                attack.Play(true);
+                Destroy(attack.gameObject, 1f);
+            }
             target.TakeDamage(stats.AttackPower);
             return true;
         }

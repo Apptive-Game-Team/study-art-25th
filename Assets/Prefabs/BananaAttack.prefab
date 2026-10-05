@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8043164720690145077}
   - component: {fileID: 4063161107829446248}
   m_Layer: 0
-  m_Name: HitEffect1
+  m_Name: BananaAttack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -80,7 +80,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 3
       minMaxState: 0
-      scalar: 0.32
+      scalar: 0.22
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -97,7 +97,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 3
       minMaxState: 0
-      scalar: 1.6
+      scalar: 1.2
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -179,7 +179,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 3
       minMaxState: 0
-      scalar: 0.24
+      scalar: 0.28
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -440,7 +440,7 @@ ParticleSystem:
       countCurve:
         serializedVersion: 3
         minMaxState: 0
-        scalar: 5
+        scalar: 3
         minScalar: 30
         maxCurve:
           serializedVersion: 2

@@ -27,6 +27,7 @@ namespace ArtUnityWorkshop
         private Combatant player;
         private BattleCoordinator battle;
         private string finalResult;
+        private int collectedBananas;
 
         private void Start()
         {
@@ -42,13 +43,21 @@ namespace ArtUnityWorkshop
             if (battle != null) { battle.BattleStarted += ClearResult; battle.BattleFinished += Finish; }
         }
         private void ClearResult() => finalResult = null;
-        private void Finish(bool won) => finalResult = won ? "승리! 적을 처치했습니다" : "패배";
+        private void Finish(bool won)
+        {
+            if (won) collectedBananas++;
+            finalResult = won ? $"적을 처치했습니다! · 바나나 +1 (모은 바나나 {collectedBananas}개)" : "가족에게 돌아가 잠깐 쉬어요";
+        }
         private void OnDestroy()
         {
             if (battle != null) { battle.BattleStarted -= ClearResult; battle.BattleFinished -= Finish; }
         }
         private void LateUpdate()
         {
+            if (inputText != null) inputText.color = Color.black;
+            if (phaseText != null) phaseText.color = Color.black;
+            if (timerText != null) timerText.color = Color.black;
+            if (resultText != null) resultText.color = Color.black;
             bool active = battle != null && battle.IsBattleActive;
             var phase = active ? battle.Phase : BattlePhase.Inactive;
             bool selecting = phase == BattlePhase.Selecting;

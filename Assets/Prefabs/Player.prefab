@@ -145,7 +145,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -8364913047766280116, guid: 4d701fb8bab94204e92af20e3e7b6a8a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4abd9a25a81df41cc84efb7a1929cb95, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -166,7 +166,7 @@ Animator:
   m_GameObject: {fileID: 3615181511834524134}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 22100000, guid: b9547fdad2c7b8640a7381d8e9e16bef, type: 2}
+  m_Controller: {fileID: 22100000, guid: aa7a2883d5ddf456b999b5da02cafb8d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -417,7 +417,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArtUnityWorkshop.Combatant
   animationPresenter: {fileID: 1357146623733533688}
-  hitParticlePrefab: {fileID: 5869763555766250349, guid: 3beaf585b01746c41bcebce10a14a4eb, type: 3}
+  hitParticlePrefab: {fileID: 8043164720690145077, guid: 70849d41e6f79724a9c6408beb34ce83, type: 3}
+  attackParticlePrefab: {fileID: 8043164720690145077, guid: 5e7510ae4e09641a7802f7a88a96b880, type: 3}
   hitEffectAnchor: {fileID: 2296509009274616175}
 --- !u!114 &1699823781576550285
 MonoBehaviour:
