@@ -5585,26 +5585,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1073947757}
     m_Modifications:
-    - target: {fileID: 1619515747638492351, guid: d972d8a69aa947c448a8d00c625e8424, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2298959281896080453, guid: d972d8a69aa947c448a8d00c625e8424, type: 3}
-      propertyPath: m_SortingLayer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2298959281896080453, guid: d972d8a69aa947c448a8d00c625e8424, type: 3}
-      propertyPath: m_SortingLayerID
-      value: 6002
-      objectReference: {fileID: 0}
-    - target: {fileID: 5047904058531601605, guid: d972d8a69aa947c448a8d00c625e8424, type: 3}
-      propertyPath: m_SortingLayerID
-      value: 6002
-      objectReference: {fileID: 0}
-    - target: {fileID: 6216894628066039801, guid: d972d8a69aa947c448a8d00c625e8424, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
+    - target: {fileID: 614625055283801931, guid: d972d8a69aa947c448a8d00c625e8424, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: a2e23193c976434eb66491671c592689, type: 3}
     - target: {fileID: 6321986627938342775, guid: d972d8a69aa947c448a8d00c625e8424, type: 3}
       propertyPath: m_Name
       value: TrophyDisplay
