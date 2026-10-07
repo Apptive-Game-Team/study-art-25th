@@ -118,10 +118,7 @@ namespace ArtUnityWorkshop
 
                 var animator = instance.GetComponentInChildren<Animator>();
 
-                if (animator == null ||
-                    animator.avatar == null ||
-                    !animator.avatar.isValid ||
-                    !animator.avatar.isHuman)
+                if (animator == null)
                 {
                     return;
                 }
@@ -134,8 +131,8 @@ namespace ArtUnityWorkshop
                 var playable =
                     AnimationClipPlayable.Create(graph, clip);
 
-                playable.SetTime(clip.length * .5);
-                playable.SetSpeed(0);
+                playable.SetTime(0);
+                playable.SetSpeed(1);
 
                 AnimationPlayableOutput
                     .Create(graph, "Pose", animator)
@@ -145,7 +142,7 @@ namespace ArtUnityWorkshop
                 currentClip = clip;
             }
 
-            graph.Evaluate(0);
+            graph.Evaluate(Application.isPlaying ? Time.deltaTime : 0);
         }
 
         public void NextPose()
